@@ -18,9 +18,7 @@ customers.csv
 #### These files are uploaded to a Snowflake stage named sales_stage, and then loaded into raw tables via COPY INTO. dbt is used to transform the raw data into structured models under staging and marts layers.
 
 ### ⚙️ Technologies Used
-Tool	Role
-Snowflake	Cloud data warehouse
-dbt	Data transformation and modeling
-Airflow	Workflow orchestration
-Power BI	Dashboard and visualization
-Docker	Containerization and environment setup
+Snowflake:	Cloud data warehouse  
+dbt:	Data transformation and modeling  
+Airflow:	Workflow orchestration  
+Docker:	Containerization and environment setup  
