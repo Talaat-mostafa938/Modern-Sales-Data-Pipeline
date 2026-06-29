@@ -8,3 +8,9 @@ dbt (Data Build Tool) for data modeling and transformation
 Apache Airflow for workflow orchestration with CeleryExecutor   
 Docker for containerization and environment setup   
  
+### The data consists of 4 CSV files:
+
+orders.csv  
+order_items.csv  
+products.csv  
+customers.csv  
